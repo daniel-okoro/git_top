@@ -9,7 +9,10 @@ ol{
 
 }
 /* li{
+    display: inline-block;
     list-style-type: none;
     background: url("arrow.png") 0 50% no-repeat;
     padding-left: 12px;
+    float: left;
+    margin: 0 20px;
 } */
