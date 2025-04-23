@@ -1,8 +1,15 @@
+/* list style type to change the bullet point to square */
 ul{
     list-style-type: square;
+    list-style-position: inside;
 }
-li{
+/* A combination of list-style-type and list-style-position */
+ol{
+    list-style: lower-roman inherit;
+
+}
+/* li{
     list-style-type: none;
     background: url("arrow.png") 0 50% no-repeat;
     padding-left: 12px;
-}
+} */
