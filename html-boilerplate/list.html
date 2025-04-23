@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"
     <title>Important List</title>
 </head>
 
@@ -21,7 +22,13 @@
     <p>Here is an ordered list of things I need to do today</p>
     <ol>
         <li>Go to the Barber's shop</li>
-        <li>Go shopping at Tesco</li>
+        <li>Go shopping at Tesco:
+            <ul>
+                <li>Buy Milk</li>
+                <li>Buy Cheese</li>
+                <li>Buy Butter</li>
+            </ul>
+        </li>
         <li>Pick up Mail in Mail box</li>
         <li>Head home with things I bought and mails</li>
     </ol>
@@ -47,6 +54,33 @@
         </li>
     </ol>
     </p>
+
+<!-- attribute reversed to reverse the list from highest to lowest -->
+    <p>Here is a reversed list of Friends</p>
+    <ol reversed>
+        <li>Chuks</li>
+        <li>Ibe</li>
+        <li>Innocent</li>
+        <li>Frankie</li>
+    </ol>
+
+<!-- Here is the start attribute to start the count from a desired number -->
+    <p>Here is a list of my top games</p>
+    <ol start="10">
+        <li>Fifa</li>
+        <li>Boom beach</li>
+        <li>Fantasy Priemer League</li>
+    </ol>
+<!-- Description list dt must come before dd -->
+    <p>Description of the Games I play</p>
+    <dl>
+        <dt>Asphalt</dt>
+        <dd>An action racing game</dd>
+        <dt>Fifa</dt>
+        <dd>An exciting Football game</dd>
+        <dt>Boom Beach</dt>
+        <dd>A multiplayer strategy game</dd>
+    </dl>
 
 </body>
 
