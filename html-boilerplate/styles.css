@@ -1,0 +1,33 @@
+.navigation ul {
+    font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+/* inlne-block makes the text horizontal and removes bullet */
+.navigation li {
+    display: inline-block;
+}
+/* padding adds the box for the text */
+.navigation a {
+    background: #395870;
+    background: linear-gradient(#49708f, #293f50);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+/* add hover feature where area darkens when you hover the object */
+.navigation a:hover{
+    background: #314b60;
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+/* adds radius at the corner of the first element */
+.navigation li:first-child a{
+    border-radius: 4px 0 0 4px;
+}
+/* defines the right side of the box and add radius to its corner */
+.navigation li:last-child a{
+    border-right: 0;
+    border-radius: 0 4px 4px 0;
+}
