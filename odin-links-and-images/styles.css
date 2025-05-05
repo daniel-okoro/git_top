@@ -1,0 +1,38 @@
+/* A universal selector select every element in html structure */
+*{
+    color: purple;
+}
+
+div{
+    background-color: black;
+    color: white;
+}
+
+.alert-text{
+    color: red;
+}
+
+#title{
+    background-color: red;
+}
+
+.read, .unread{
+    color: white;
+    background-color: black;
+}
+
+.read {
+    /* several unique declarations */
+}
+
+.unread {
+    /* several unique declarations */
+}
+
+.subsection.header {
+    color: red;
+}
+
+.subsection#preview {
+    color: blue;
+}
